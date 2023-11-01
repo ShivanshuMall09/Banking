@@ -1849,7 +1849,7 @@ print(ptime)
  
 
 print ("Closing...")    
-time_limit = 100 #10800
+time_limit = 10800
 start_time = time.time()
 while True:
     if time.time() - start_time >= time_limit:
